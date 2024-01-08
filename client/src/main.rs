@@ -1,5 +1,3 @@
-// To start off, lets create a client that connects to another one using websockets
-
 use std::{
     io::{Read, Result, Write, ErrorKind},
     net::TcpStream,

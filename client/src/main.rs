@@ -1,3 +1,5 @@
+pub mod aes;
+
 use std::{
     io::{Read, Result, Write, ErrorKind},
     net::TcpStream,
